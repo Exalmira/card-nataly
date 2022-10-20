@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/3e/a3/2c/3ea32c282a155006e76a7d27f9d66070.gif);
+   background-repeat: no-repeat;
+background-position: center ;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.container{
+background-color: rgba(106, 233, 216, 0.3);   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+
+    width: 40rem;
+    height: 25rem;
+    background:rgb(144, 238, 144,0.5);
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px  rgba(10, 10, 10, 0.5);
+
+}
+.header {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+.header img {
+    width: 100%;
+   height: 100%;
+    position: absolute;
+    top: -6rem;
+}
+
+
+.information {
+    width: 100%;
+    height: 29rem;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.information .photo{
+    width: 10rem;
+    height:  10rem;
+   border-radius: 100%;
+    position: absolute;
+    top: -170px;
+    border: 5px double rgb(239, 247, 239) ;
+    overflow: hidden;
+   
+  
+}
+
+.information .photo img {
+    width: 100%;
+    
+}
+
+
+.name  h1{
+    font-family: cursive;
+    font-size: 2rem;
+    
+   
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.name h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #707070;
+}
+
+.social-networks {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color:mediumaquamarine;
+    box-shadow: 5px 5px 5px 5px rgba(12, 11, 11, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks img {
+    height: 2.2rem;
+}
+
+.button.facebook:hover {
+    background-color:white
+}
+.button.instagram:hover {
+    background-color:#E1306C; ;
+}
+        
+.button.twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.button.github:hover {
+    background-color: #333333;
+}
+
+
+@media(max-width:1030px) {
+
+.card {
+       margin: 30px;
+        width: 20rem;
+        height: 28rem;
+        
+    }
+    
+}
